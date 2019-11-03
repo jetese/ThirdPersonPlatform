@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RedWorld.unity
     guid: 2c9294bc4d0cb984b833f1e723bafa34
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 976d5e36267b8744397115023a6c8c7d
   m_configObjects: {}

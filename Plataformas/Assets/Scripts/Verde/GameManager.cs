@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
     public string redSceneName;
     public string blueSceneName;
     public string yellowSceneName;
+    public string finishSceneName;
 
 
     /// <summary>
@@ -203,6 +204,10 @@ public class GameManager : MonoBehaviour
 		else
 			Debug.LogWarning("El nivel [" + m_LevelNames[doorColor] + "] ya se ha cargado. No se va a volver a realizar la carga");
 	}
+
+    public void TriggerLoadFinishGame(){
+        SceneManager.LoadScene(finishSceneName,LoadSceneMode.Single);
+    }
 
 	/// <summary>
 	/// Función que devuelve el Game Object que representa a cada una de las puertas a partir de su color
